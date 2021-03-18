@@ -75,7 +75,7 @@ Account* Load(Account* FirstMember) //프로그램 시작하며 파일데이터�
 	return NULL;
 }
 
-int makeAccount(Account* target)//계좌번호 비밀번호 예금주 금액을 입력 받고 리스트에 저장      순서 바꿔야함
+int makeAccount(Account* target)//계좌번호 비밀번호 예금주 금액을 입력 받고 리스트에 저장
 {
 
 	int a = 1234500000;
@@ -204,7 +204,7 @@ void withdraw(Account* target) //출금
 	{
 		printf("없는 계좌입니다. 입금을 종료합니다.\n\n");
 		return;
-	}                                    //예외 금액부족 처리
+	}                                   
 	while (curr->password != p)
 	{
 		printf("입력한 비밀번호가 일치하지 않습니다. 비밀번호를 다시 입력해 주세요: \n");
