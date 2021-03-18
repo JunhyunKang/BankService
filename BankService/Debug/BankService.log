@@ -1,0 +1,10 @@
+﻿  service.c
+C:\Users\junsa\source\repos\BankService\BankService\service.c(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\junsa\source\repos\BankService\BankService\service.c : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\junsa\source\repos\BankService\BankService\service.c(91,29): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\junsa\source\repos\BankService\BankService\service.c(91,29): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\junsa\source\repos\BankService\BankService\service.c(257,20): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\junsa\source\repos\BankService\BankService\service.c(257,20): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\junsa\source\repos\BankService\BankService\service.c(271,21): warning C4474: 'scanf' : too many arguments passed for format string
+C:\Users\junsa\source\repos\BankService\BankService\service.c(271,21): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  BankService.vcxproj -> C:\Users\junsa\source\repos\BankService\Debug\BankService.exe
